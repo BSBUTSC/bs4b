@@ -1,0 +1,145 @@
+/**
+ * @package 	WordPress
+ * @subpackage 	schule
+ * @version		1.0.0
+ * 
+ * LearnPress Responsive CSS Rules
+ * Created by CMSMasters
+ * 
+ */
+@media only screen {
+  /*-------------------------------------------------------------------------*/
+  /*	Tablet Monitor 950
+	/*-------------------------------------------------------------------------*/
+  /*-------------------------------------------------------------------------*/
+  /*	Tablet Monitor 600
+	/*-------------------------------------------------------------------------*/
+  /*-------------------------------------------------------------------------*/
+  /*	Phone Monitor
+	/*-------------------------------------------------------------------------*/
+}
+@media only screen and (max-width: 950px) and (min-width: 600px) {
+  #page .learn-press-courses li.course {
+    width: 47.4%;
+  }
+  #page .learn-press-courses li.course:nth-child(2n+1) {
+    clear: left;
+  }
+}
+@media only screen and (max-width: 950px) {
+  .cmsmasters_learnpress_shortcode.cmsmasters_4 .lpr_course_post {
+    width: 50%;
+  }
+  .cmsmasters_learnpress_shortcode.cmsmasters_4 .lpr_course_post:nth-child(2n+1) {
+    clear: both;
+  }
+  .cmsmasters_learnpress_shortcode.cmsmasters_5 .lpr_course_post {
+    width: 50%;
+  }
+  .cmsmasters_learnpress_shortcode.cmsmasters_5 .lpr_course_post:nth-child(5n+1) {
+    clear: none;
+  }
+  .cmsmasters_learnpress_shortcode.cmsmasters_5 .lpr_course_post:nth-child(2n+1) {
+    clear: both;
+  }
+  #course-curriculum-popup {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    overflow: scroll;
+  }
+  #course-curriculum-popup #popup-main,
+  #course-curriculum-popup #popup-sidebar {
+    float: none;
+    width: 100%;
+    padding: 20px;
+    position: relative;
+    left: auto;
+    right: auto;
+    top: auto;
+    bottom: auto;
+  }
+  #course-curriculum-popup #popup-main #popup-header,
+  #course-curriculum-popup #popup-main #popup-content,
+  #course-curriculum-popup #popup-main #popup-footer {
+    float: none;
+    width: 100%;
+    padding: 0;
+    position: relative;
+    left: auto;
+    right: auto;
+    top: auto;
+    bottom: auto;
+  }
+  #course-curriculum-popup #popup-main #popup-footer {
+    display: none;
+  }
+  #course-curriculum-popup #popup-content-inner {
+    margin: 0 !important;
+    padding: 0;
+  }
+  #course-curriculum-popup iframe {
+    position: relative;
+    min-height: 500px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  #page .learn-press-courses {
+    margin: 0;
+  }
+  #page .learn-press-courses li.course {
+    float: none;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    clear: both;
+  }
+}
+@media only screen and (max-width: 540px) {
+  .single-lp_course .course-meta > * {
+    display: block;
+    float: none !important;
+  }
+  .course-reviews-list .review-text .review-stars-rated {
+    margin-bottom: 10px;
+  }
+  .course-reviews-list .review-text .review-stars-rated,
+  .course-reviews-list .review-text .user-name {
+    display: block;
+    float: none;
+  }
+  .learn-press-nav-tabs > li {
+    display: block;
+    width: 100%;
+  }
+  .cmsmasters_learnpress_shortcode.cmsmasters_2 .lpr_course_post,
+  .cmsmasters_learnpress_shortcode.cmsmasters_3 .lpr_course_post,
+  .cmsmasters_learnpress_shortcode.cmsmasters_4 .lpr_course_post,
+  .cmsmasters_learnpress_shortcode.cmsmasters_5 .lpr_course_post {
+    width: 100%;
+    float: none;
+  }
+  .user-profile-edit-form .info-field {
+    float: none;
+    width: 100%;
+    padding: 0;
+  }
+  .learn-press-user-profile .learn-press-tabs > li {
+    display: block;
+  }
+  body.content-item-only .learn-press-content-item-only {
+    padding: 20px 0;
+  }
+  #page .learn-press-wishlist-courses li {
+    display: block;
+    text-align: center;
+  }
+  #page .learn-press-wishlist-courses li .button {
+    display: block;
+    margin: 0 auto;
+  }
+  #page .learn-press-wishlist-courses li > a {
+    display: block;
+    margin-bottom: 20px;
+  }
+}
