@@ -37,7 +37,7 @@
 	overflow: hidden;
 }
 .ilightbox-closedhand * {
-	cursor: url(../img/ilightbox/closedhand.cur),default !important;
+	cursor: url(./closedhand(1).cur),default !important;
 }
 
 .ilightbox-overlay {
