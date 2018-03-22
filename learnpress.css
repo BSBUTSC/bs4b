@@ -15,8 +15,8 @@
  */
 @font-face {
   font-family: 'lp-icons';
-  src: url('../fonts/lp-icons.eot?f41nl');
-  src: url('../fonts/lp-icons.eot?f41nl#iefix') format('embedded-opentype'), url('../fonts/lp-icons.ttf?f41nl') format('truetype'), url('../fonts/lp-icons.woff?f41nl') format('woff'), url('../fonts/lp-icons.svg?f41nl#lp-icons') format('svg');
+  src: url('./lp-icons.eot?f41nl');
+  src: url('./lp-icons.eot?f41nl#iefix') format('embedded-opentype'), url('./lp-icons.ttf?f41nl') format('truetype'), url('./lp-icons.woff?f41nl') format('woff'), url('./lp-icons.svg?f41nl#lp-icons') format('svg');
   font-weight: normal;
   font-style: normal;
 }
