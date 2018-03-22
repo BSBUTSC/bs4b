@@ -155,7 +155,7 @@ select {
   -moz-appearance: none;
   -ms-appearance: none;
   appearance: none !important;
-  background-image: url('../../../img/select.png');
+  background-image: url('./select.png');
   background-position: 100% center;
   background-repeat: no-repeat;
   -webkit-border-radius: 8px;
