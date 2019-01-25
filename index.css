@@ -1,0 +1,407 @@
+html, body{
+  background-color: white;
+  height: 100%;
+  width: 100%;
+}
+a{
+  text-decoration: none;
+  font-family: 'Sans-serif', sans-serif;
+  font-weight: 500;
+  color: #494949;
+  text-transform: uppercase;
+}
+/*BACKGROUND VIDEO */
+.video-background{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+}
+@media(min-aspect-ratio: 16/9){
+  .video-background{
+    width: 100%;
+    height: auto;
+  }
+}
+@media(max-aspect-ratio:16/9){
+  .video-background{
+    width: auto;
+    height: 100%;
+  }
+}
+
+.padding{
+  padding: 80px 0;
+}
+/* NAVIGATION */
+.navbar{
+  background-color: black;
+  padding: 1% 0;
+  font-size: 1.2em;
+}
+.navbar-brand{
+  min-height: 55px;
+  padding: 0 15px 5px;
+}
+.navbar-default .navbar-nav li a{
+  color: #dfdfdf;
+  opacity: 10;
+}
+.navbar-default .navbar-nav li a:hover, .navbar-default .navbar-nav li a.active{
+  color: #FFF;
+}
+
+#home{
+  background: url('back1.png') center center fixed;
+  display: table;
+  height: 100%;
+  position: relative;
+  width: 100%;
+  background-size: cover;
+}
+.landing-text{
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  position: relative;
+
+}
+.landing-text h1{
+  font-size: 450%;
+  font-weight: 700;
+  color: white;
+  z-index: 2;
+  position: relative;
+}
+.landing-text h3{
+  color: white;
+  position: relative;
+
+}
+#fixed{
+  background: url('host.jpg') no-repeat center center fixed;
+  display: table;
+  height: 50%;
+  position: relative;
+  width: 100%;
+  background-size: cover;
+}
+#fixed h4{
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+  padding-top: 200px;
+}
+footer{
+  width: 100%;
+  background-color: black;
+  padding: 5% 5% 10% 5%;
+  color: #FFF;
+}
+.fa{
+  padding: 15px;
+  font-size: 30px;
+  color: #FFF;
+}
+.fa:hover{
+  color: #dfdfdf;
+  text-decoration: none;
+}
+.icon{
+  max-width: 150px;
+}
+
+@media (max-width: 768px){
+  .landing-text h1{
+    font-size: 180%
+  }
+  .landing-text h3{
+    font-size: 18px;
+  }
+  .fa{
+    font-size: 20px;
+    padding: 10px;
+  }
+  .icon{
+    padding-top: 5%;
+    max-width: 100px;
+  }
+
+
+}
+
+/* FOR THE MAP */
+.map{
+  position: relative;
+  padding-bottom: 66.6666667%;
+  height: 0;
+  padding: 5px 0px 500px 0px;
+}
+.map iframe{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  max-height: 500px;
+  padding: 5px 0px 0px 0px;
+}
+
+/* MINISTERS */
+#ministers{
+  background-color: white;
+  padding: 0px 0px 600px 0px;
+}
+#ministers h1{
+  text-align: center;
+}
+.fet h1{
+  display: none;
+}
+#projects{
+  width: 900px;
+  margin: 0 auto 0 auto;
+  -webkit-box-flex: auto;
+}
+#projects ul{
+  padding: 0;
+}
+#projects ul li{
+  width: 33.3%;
+  float: left;
+  padding: 7px;
+  list-style-type: none;
+}
+#projects ul li a{
+  text-decoration: none;
+}
+#projects img{
+  width: 280px;
+  height: 280px;
+  border-radius: 5px;
+}
+#projects img:hover{
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  box-shadow: 0 5px 5px rgba(0,0,0,0.3);
+}
+header{
+  display: none;
+}
+
+@media (max-width: 750px){
+  #ministers {
+    display: none;
+  }
+  #projects img{
+    width: 100%;
+    height: 250px;
+  }
+  header{
+    margin-left: .5vw;
+    font-size: 0;
+    display: -ms-flexbox;
+    -ms-flexbox-wrap: wrap;
+    -ms-flexbox-direction: column;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    display: -webkit-box;
+    display: flex;
+  }
+  header div{
+    -webkit-box-flex: auto;
+    -ms-flex: auto;
+    flex: auto;
+    width: 200px;
+    margin: .5vw;
+  }
+  header div img{
+    width: 100%;
+    height: auto;
+  }
+  .fet h1{
+    display: block;
+    text-align: center;
+  }
+}
+
+
+@media screen and (max-width:400px) {
+  header div{
+    margin: 0;
+  }
+  header{
+    padding: 0;
+  }
+}
+
+
+
+
+
+
+
+/* LOCATION PAGE */
+.pimg1, .pimg2, .pimg3{
+  position: relative;
+  opacity: 0.70;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.pimg1{
+    background-image: url('venue.jpg');
+    background-size: cover;
+    min-height: 400px;
+    position: relative;
+  }
+
+.section{
+  text-align: center;
+  padding: 50px 80px;
+}
+
+.section-light{
+  background-color: #f4f4f4;
+  color: black;
+}
+
+.section-dark{
+  background-color: #282e34;
+  color: #ddd;
+}
+.ptext {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+  font-size: 27px;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+}
+.ptext .border{
+  background-color: black;
+  color:#fff;
+  padding: 20px;
+}
+
+
+@media (max-width) {
+  .pimg1, .pimg2, .pimg3{
+    background-attachment: scroll;
+
+  }
+}
+
+/* HOST */
+.pimg2{
+    background-image: url('host.jpg');
+    background-size: cover;
+    min-height: 400px;
+    position: relative;
+  }
+.ptext h4{
+  color: white;
+}
+
+/* DESING */
+.design{
+  background-color: black;
+  padding: 0px 0px 12px 0px;
+}
+.design h5{
+  color: white;
+  text-align: center;
+  padding-top: 10px;
+  vertical-align: middle;
+}
+.design p, a{
+  color: white;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*--- iOS Landing Page Fix
+section {
+ 	position: relative;
+ 	width: 100%;
+ 	height: 100%;
+ 	display: table;
+}
+.home-wrap {
+ 	clip: rect(0, auto, auto, 0);
+ 	position: absolute;
+ 	top: 0;
+ 	left: 0;
+ 	width: 100%;
+ 	height: 100%;
+}
+#home {
+	background-image: url('img/mountains.jpeg');
+ 	position: fixed;
+ 	display: table;
+ 	top: 0;
+ 	left: 0;
+ 	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-position: center center;
+	-webkit-transform: translateZ(0);
+          transform: translateZ(0);
+	will-change: transform;
+	z-index: -1;
+}
+.landing-text {
+	z-index: 100;
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+}
+--*/
+
+/*--- iOS Fixed Image Fix
+figure {
+	position: relative;
+	width: 100%;
+	height: 60%;
+}
+.fixed-wrap {
+	clip: rect(0, auto, auto, 0);
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+#fixed {
+	background-image: url('img/background.jpg');
+	position: fixed;
+	display: block;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-position: center center;
+	-webkit-transform: translateZ(0);
+          transform: translateZ(0);
+	will-change: transform;
+}
+--*/
